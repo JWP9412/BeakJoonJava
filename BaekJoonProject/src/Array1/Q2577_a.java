@@ -1,4 +1,5 @@
 package Array1;
+
 //숫자의 개수
 import java.util.Scanner;
 
