@@ -23,7 +23,7 @@ public class Q2941 extends StringIndexOutOfBoundsException {
 					// arr[i] = get.substring(i, i + 2);
 					// System.out.println("arr["+i+"]"+arr[i]);
 					if (arr[i].equals(cro[k])) {
-						get = get.replace(cro[k], "  ");
+						get = get.replace(cro[k], "**");
 						newget = get.trim();
 						cnt++;
 						System.out.println("!! get : |" + get + "|");
@@ -37,7 +37,7 @@ public class Q2941 extends StringIndexOutOfBoundsException {
 			}
 
 		}
-		get = get.replace(" ", "");
+		get = get.replace("*", "!");
 		System.out.println("@@ get : |" + get + "|");
 		System.out.println(get.length() + cnt);
 	}
