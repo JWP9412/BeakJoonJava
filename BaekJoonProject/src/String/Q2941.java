@@ -16,9 +16,10 @@ public class Q2941 extends StringIndexOutOfBoundsException {
 		for (int i = 0; i < get.length(); i++) {
 			if (i + 2 <= get.length()) {
 				arr[i] = get.substring(i, i + 2);
-				System.out.println("arr[" + i + "] : (" + arr[i] + ")");
+				
 			}
 			for (int k = 0; k < cro.length; k++) {
+				System.out.println("^^arr[" + i + "] : (" + arr[i] + ")");
 				if (i < get.length() - 1) {
 					// arr[i] = get.substring(i, i + 2);
 					// System.out.println("arr["+i+"]"+arr[i]);
